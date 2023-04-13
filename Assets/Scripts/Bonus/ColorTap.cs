@@ -228,7 +228,6 @@ public class ColorTap : MonoBehaviour
             if (!salvaData)
             {
                 control.goldenBugs = valor;
-                control.SaveDataS();
                 salvaData = true;
             }
         }

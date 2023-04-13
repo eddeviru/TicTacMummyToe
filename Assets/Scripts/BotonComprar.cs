@@ -769,8 +769,6 @@ public class BotonComprar : MonoBehaviour
                 CardPrice.text = txtAct + pasajeControl.IntercambioAllFichas;
             }
 
-            pasajeControl.SaveDataS();
-
             cantidadCards = 1;
             SetValueBtn();
         }

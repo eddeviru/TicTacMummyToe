@@ -214,7 +214,6 @@ public class ForceTap : MonoBehaviour
             if (!salvaData)
             {
                 control.goldenBugs = valor;
-                control.SaveDataS();
                 salvaData = true;
             }
         }
