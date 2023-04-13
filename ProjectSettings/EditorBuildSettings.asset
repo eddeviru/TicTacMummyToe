@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/CargaJuego.unity
+    guid: 5649b29ea03d0b34d8f160bd8bbd9c62
+  - enabled: 1
+    path: Assets/Scenes/BeginScene.unity
+    guid: c32d6339270a3e34794756d144b3f4fd
+  - enabled: 1
+    path: Assets/Scenes/BonusDos.unity
+    guid: 00d2d141560840643a0885b41a8a23f2
+  - enabled: 1
+    path: Assets/Scenes/BonusUno.unity
+    guid: 81b9acd7aa4765e4c83cb2038f1e72e9
+  - enabled: 1
+    path: Assets/Scenes/DueloScene.unity
+    guid: 9a5d9f4559127e042a751e987c8d0914
+  m_configObjects: {}

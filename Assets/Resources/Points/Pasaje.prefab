@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6991998785550224059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6991998785550224057}
+  - component: {fileID: 6991998785550224058}
+  - component: {fileID: -1340754638738807229}
+  m_Layer: 0
+  m_Name: Pasaje
+  m_TagString: pasaje
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6991998785550224057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6991998785550224059}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6991998785550224058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6991998785550224059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc26b1cd7bc7c9649a0de9717a692966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IntercambioAllFichas: 0
+  ObstaculoP1000: 0
+  ObstaculoP2000: 0
+  FichaFantasma: 0
+  CambioMummyFichas: 0
+  Cambio1Ficha: 0
+  OffFicha: 0
+  OffPanel: 0
+  goldenBugs: 0
+  sunPointsTotal: 0
+  sunPointsMonth: 0
+  NamePlayer: 
+  volumeSoundInGame: -10
+  tutorial: 0
+  pantallaError: {fileID: 0}
+  anonym: 0
+  usurioMuestra: 
+  GBex3: 0
+  GBex2k: 0
+  GBex5k: 0
+  limiteAnt: 0
+  limiteFin: 0
+  checkLeaderBoard: 0
+  listaNueva: 0
+  timerLeaderBoard: 0
+  Foto: f4010000e8030000a4060000b80b0000581b0000e02e0000803e00000852000078690000007d00008890000010a4000080bb0000f0d2000060ea0000d001010040190100a4320100084c01006c650100
+  puestoJuegador: 0
+  PartidasJugadas: 0
+  camPos: {x: 0, y: 0, z: 0}
+  camRot: {x: 0, y: 0, z: 0}
+  MarcoPos: {x: 0, y: 0, z: 0}
+  MarcoRot: {x: 0, y: 0, z: 0}
+  versioTxt: 
+--- !u!114 &-1340754638738807229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6991998785550224059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ccc89009c9911e43b3c87ccc8de5d9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pasoLogeo: 0
+  pasoPass: 0
+  userUID: 
+  emailU: 
+  pasoDB: 0
+  FirebaseConnected: 0
+  pasaOk: 0
+  pasodbi: 0
+  restart: 0
+  saveData: 0
